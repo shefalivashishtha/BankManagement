@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BankAccountManagement.Business/1.0.0": {
+        "dependencies": {
+          "BankAccountManagement.Data": "1.0.0"
+        },
+        "runtime": {
+          "BankAccountManagement.Business.dll": {}
+        }
+      },
+      "BankAccountManagement.Data/1.0.0": {
+        "runtime": {
+          "BankAccountManagement.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankAccountManagement.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankAccountManagement.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

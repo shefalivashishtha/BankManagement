@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Models\LoanApplication\" />
+    <None Remove="Models\Account\" />
+    <None Remove="DataAccessor\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\LoanApplication\" />
+    <Folder Include="Models\Account\" />
+    <Folder Include="DataAccessor\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\Exceptions\" />
+  </ItemGroup>
+</Project>

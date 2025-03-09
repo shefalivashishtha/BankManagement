@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VXIZ56XoC0iX/uE7D2dhIk7TWRj6ngqXIbcCYhxEDAI=",
+  "Source": "BankAccountManagement",
+  "BasePath": "_content/BankAccountManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
